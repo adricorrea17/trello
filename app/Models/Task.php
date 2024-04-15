@@ -11,7 +11,8 @@ class Task extends Model
     protected $fillable = [
         'title',
         'status',
-        'kanban_id'
+        'kanban_id',
+        'priority'
     ];
 
     public function kanban()
